@@ -1,2 +1,2 @@
 # Ctrials
-SQL on remote server
+SQL on local server
