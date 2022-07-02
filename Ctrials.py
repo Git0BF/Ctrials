@@ -12,13 +12,11 @@ import pandas as pd
 
 #Tittle ctgov.studies.official_tittle /brief_tittle
 
-#Indication ctgov.conditions.name (nct_id; id)
+#Indication ctgov.conditions.name (keys : nct_id; id)
 
-#Objectives Primary/secondary/ Endpoint outcome ``ctgov.outcomes.outcome_type``
+#Objectives Primary/secondary/ Endpoint outcome ctgov.outcomes.outcome_type
 
 #Number previous of studies/ results of previous phases ??
-
-#Type of phase ctgov.studies.phase
 
 #Study protocol  ctgov.detailed_descriptions
 
@@ -36,17 +34,19 @@ import pandas as pd
 
 #- Number of participant ctgov.studies.enrollement
 
-#- Interventions (type of drugs given) ctgov.interventions.intervention_type/name/description(drug)/// ctgov.design_groups.title/description/timeframe (id; nct_id)
+#- Interventions (type of drugs given) ctgov.interventions.intervention_type/name/description/// ctgov.design_groups.title/description/timeframe (id; nct_id)
 
-#- Evaluation method ctgov.outcome_analyses.method/ method description
+#- Evaluation method ctgov.outcome_analyses.method (t_test, ancova)/ method_description/ groups_description (Week 8 etc.)
 
 #- Parameters ctgov.outcome_analyses.param_type / param_value / p_value/  p_value_description/ ci_n_sides/ ci_percent/ ci_lower_limit/ ci_upper_limit/
 
-#Baseline values ctgov.baseline_measurements.title/units/param_value
+#Baseline values ctgov.baseline_measurements.title/ units/ param_value
 
 #Delta to placebo (control group) ????
 
-#Primary Endpoint outcome ctgov.outcomes.outcome_type
+#Primary/Sec Endpoint outcome ctgov.outcomes.outcome_type/ title/ description/ time_frame/ population
+
+#Group selection ????
 
 #Previous papers ????
 
