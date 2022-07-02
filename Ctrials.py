@@ -10,7 +10,7 @@ import pandas as pd
 
 #Source  ctgov.studies.source
 
-#Title ctgov.studies.official_tittle /brief_tittle
+#Tittle ctgov.studies.official_tittle /brief_tittle
 
 #Indication ctgov.conditions.name (nct_id; id)
 
