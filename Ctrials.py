@@ -4,7 +4,7 @@ import pandas as pd
 #Dl AACT db here :https://aact.ctti-clinicaltrials.org/snapshots
 #install Postgres
 
-# Data exploration. 
+# Data exploration. (Path to relevant fiels in the DB)
 
 #Clinical trials analysis
 
