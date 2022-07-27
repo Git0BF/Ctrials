@@ -4,13 +4,13 @@ import pandas as pd
 #Dl AACT db here :https://aact.ctti-clinicaltrials.org/snapshots
 #install Postgres
 
-# Data exploration. (Path to relevant fiels in the DB)
+# Data exploration. (Path to relevant files in the DB)
 
 #Clinical trials analysis
 
 #Source  ctgov.studies.source
 
-#Tittle ctgov.studies.official_tittle /brief_tittle
+#Title ctgov.studies.official_tittle /brief_tittle
 
 #Indication ctgov.conditions.name (keys : nct_id; id)
 
